@@ -1,0 +1,23 @@
+{
+  "name": "app-management",
+  "version": "1.0.0",
+  "description": "Aplicação de gereciamento de NFes",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IgorSouzaGit/app-management.git"
+  },
+  "author": "Igor Cerqueira",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IgorSouzaGit/app-management/issues"
+  },
+  "homepage": "https://github.com/IgorSouzaGit/app-management#readme"
+}
