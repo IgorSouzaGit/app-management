@@ -1,10 +1,12 @@
-const { response } = require('express')
+
 var express = require ('express')
 
-var app = express
+var app = express()
 
-app.get('/', (req,res)=>{
-    response.send('Hello World')
+app.get('/', function (req,res){
+    console.log('Hello World')
+    res.write("Testando")
+    res.end()
 })
 
 app.set('port', (process.env.PORT || 5000))
