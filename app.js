@@ -9,7 +9,5 @@ app.get('/', function (req,res){
     res.end()
 })
 
-app.set('port', (process.env.PORT || 5000))
-
 //Start do Servidor
-app.listen(5000)
+app.listen(process.env.PORT || 5000)
