@@ -1,13 +1,14 @@
 
 var express = require ('express')
+var path = require('path')
+var PORT = process.env.PORT || 5000
 
 var app = express()
 
 app.get('/', function (req,res){
-    console.log('Hello World')
     res.write("Testando")
     res.end()
 })
 
 //Start do Servidor
-app.listen(process.env.PORT || 5000)
+app.listen(PORT, () => console.log(`Listening on ${ PORT }`))
